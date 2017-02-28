@@ -1,0 +1,10 @@
+{
+    ".*": {
+        "GET": {
+            "/(index.php)?": "MainController->index"
+        },
+        "POST": {
+            "/api/register/?": "ApiController->register"
+        }
+    }
+}

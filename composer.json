@@ -1,0 +1,15 @@
+{
+    "name": "dominicvonk/draftmvc-boilerplate",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Dominic Vonk",
+            "email": "dominic@dominicvonk.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "dominicvonk/draftmvc": "dev-master",
+        "dominicvonk/secsession": "dev-master"
+    }
+}
