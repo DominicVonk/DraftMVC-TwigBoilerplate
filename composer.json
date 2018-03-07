@@ -10,6 +10,7 @@
     "minimum-stability": "dev",
     "require": {
         "dominicvonk/draftmvc": "dev-master",
-        "dominicvonk/secsession": "dev-master"
+        "dominicvonk/secsession": "dev-master",
+        "twig/twig": "^2.4"
     }
 }

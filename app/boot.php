@@ -11,6 +11,11 @@ define('PHP_VENDOR_FOLDER', realpath(__DIR__.'/../vendor'));
 // setlocale(LC_ALL, 'nl_NL');
 
 require(PHP_VENDOR_FOLDER.'/autoload.php');
+require(APP_FOLDER . '/library/twigview.php');
+
+\DraftMVC\DraftRouter::setViewClass('\TwigView');
+\DraftMVC\DraftRouter::setViewExtension('twig');
+\DraftMVC\DraftRouter::disableLayoutSearch();
 
 require(APP_FOLDER . '/library/session.php');
 require(APP_FOLDER . '/library/config.php');
