@@ -4,3 +4,4 @@
 /public/static/js/vendor/
 composer.lock
 /config/db.json
+/app/storage/*

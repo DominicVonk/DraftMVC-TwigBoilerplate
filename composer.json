@@ -11,6 +11,6 @@
     "require": {
         "dominicvonk/draftmvc": "dev-master",
         "dominicvonk/secsession": "dev-master",
-        "twig/twig": "^2.4"
+        "dominicvonk/draftmvc-twig": "dev-master"
     }
 }
