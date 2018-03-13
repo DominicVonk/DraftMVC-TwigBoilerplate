@@ -20,7 +20,7 @@ require(PHP_VENDOR_FOLDER.'/autoload.php');
 require(APP_FOLDER . '/library/session.php');
 require(APP_FOLDER . '/library/config.php');
 
-//Config::load("db.json");
+Config::load("db.json");
 Config::load("routes.json");
 Config::load("general.json");
 
@@ -30,8 +30,8 @@ require(APP_FOLDER . '/library/idlock.php');
 
 
 /* Add models here */
-//\DraftMVC\DraftModel::useDB(new DB());
-//require(APP_FOLDER . '/models/user.php');
+\DraftMVC\DraftModel::useDB(new DB());
+require(APP_FOLDER . '/models/user.php');
 
 Session::start();
 
